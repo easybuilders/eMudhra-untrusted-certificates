@@ -274,6 +274,9 @@ if [[ ${TYPE} == "PATTERN" ]]; then
 fi
 
 known_path_patterns_pem=(
+    "aiohttp/*/lib/python*/site-packages/botocore/cacert.pem"
+    "boto3/*/lib/python*/site-packages/botocore/cacert.pem"
+    "Blender/*/*/python/lib/python/site-packages/pip/_vendor/certifi/cacert.pem"
     "CellRanger/*/external/anaconda/lib/python*/site-packages/certifi/cacert.pem"
     "CellRanger/*/external/anaconda/ssl/cacert.pem"
     "CUDA/*/nsight-compute-*/host/target-linux-x64/python/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"
@@ -326,11 +329,15 @@ known_path_patterns_pem=(
     "poetry/*/lib/python*/site-packages/certifi/cacert.pem"
     "Python-bundle-PyPI/*/lib/python*/site-packages/certifi/cacert.pem"
     "Python/*/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"
+    "Python/*/lib/python*/site-packages/certifi/cacert.pem"
     "R-bundle-CRAN/*/RCurl/CurlSSL/cacert.pem"
+    "R-bundle-CRAN/*/rsconnect/cert/cacert.pem"
     "ReFrame/*/external/x86_64/certifi/cacert.pem"
+    "ReFrame/*/local/lib/python*/dist-packages/pip-*/pip/_vendor/certifi/cacert.pem"
     "R/*/lib/R/library/openssl/cacert.pem"
     "Roary/*/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"
     "Roary/*/ssl/cacert.pem"
+    "Ruby/*/lib/ruby/gems/*/gems/pusher-client-*/certs/cacert.pem"
     "SpaceRanger/*/external/anaconda/lib/python*/site-packages/certifi/cacert.pem"
     "SpaceRanger/*/external/anaconda/lib/python*/site-packages/certifi/cacert.pem"
     "SpaceRanger/*/external/anaconda/ssl/cacert.pem"

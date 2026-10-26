@@ -277,6 +277,7 @@ known_path_patterns_pem=(
     "aiohttp/*/lib/python*/site-packages/botocore/cacert.pem"
     "boto3/*/lib/python*/site-packages/botocore/cacert.pem"
     "Blender/*/*/python/lib/python/site-packages/pip/_vendor/certifi/cacert.pem"
+    "Blender/*/*/python/lib/python*/site-packages/certifi/cacert.pem"
     "CellRanger/*/external/anaconda/lib/python*/site-packages/certifi/cacert.pem"
     "CellRanger/*/external/anaconda/ssl/cacert.pem"
     "CUDA/*/nsight-compute-*/host/target-linux-x64/python/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"

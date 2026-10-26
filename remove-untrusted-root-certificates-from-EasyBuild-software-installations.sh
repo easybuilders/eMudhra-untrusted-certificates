@@ -314,6 +314,7 @@ known_path_patterns_pem=(
     "gcloud/*/platform/gsutil/third_party/certifi/certifi/cacert.pem"
     "gcloud/*/platform/bq/third_party/certifi/cacert.pem"
     "gcloud/*/platform/bundledpythonunix/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"
+    "gcloud/*/platform/bundledpythonunix/lib/python*/site-packages/grpc/_cython/_credentials/roots.pem"
     "grpcio/*/lib/python*/site-packages/grpc/_cython/_credentials/roots.pem"
     "gRPC/*/share/grpc/roots.pem"
     "intel-compilers/*/compiler/*/linux/lib/oclfpga/host/linux64/bin/perl/lib/site_perl/*/Mozilla/CA/cacert.pem"

@@ -390,7 +390,6 @@ known_path_patterns_pem=(
     "Miniforge3/*/pkgs/pip-*/site-packages/pip/_vendor/certifi/cacert.pem"
     "Miniforge3/*/pkgs/libgrpc*/share/grpc/roots.pem"
     "Miniforge3/*/ssl/cacert.pem"
-    "ont-guppy/*/data/certs-bundle.crt"
     "PDM/*/lib/python*/site-packages/certifi/cacert.pem"
     "Perl-bundle-CPAN/*/lib/perl5/site_perl/*/Mozilla/CA/cacert.pem"
     "Perl/*/lib/perl5/site_perl/*/Mozilla/CA/cacert.pem"
@@ -421,6 +420,7 @@ known_path_patterns_pem=(
     "TensorFlow/*/lib/python*/site-packages/grpc/_cython/_credentials/roots.pem"
 )
 known_path_patterns_crt=(
+    "ont-guppy/*/data/certs-bundle.crt"
     "Pluto/*/packages/OpenSSL/test/certs/ca-certificates.crt"
     "R-bundle-CRAN/*/RCurl/etc/ca-bundle.crt"
     "texlive/*/tlpkg/installer/curl/curl-ca-bundle.crt"

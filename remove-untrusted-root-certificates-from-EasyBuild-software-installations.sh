@@ -359,6 +359,7 @@ known_path_patterns_pem=(
     "Python-bundle-PyPI/*/lib/python*/site-packages/certifi/cacert.pem"
     "Python/*/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"
     "Python/*/lib/python*/site-packages/certifi/cacert.pem"
+    "Python/*/lib/python*/site-packages/pip*/pip/_vendor/certifi/cacert.pem"
     "PyTorch-Lightning/*/lib/python*/site-packages/botocore/cacert.pem"
     "R-bundle-CRAN/*/RCurl/CurlSSL/cacert.pem"
     "R-bundle-CRAN/*/rsconnect/cert/cacert.pem"

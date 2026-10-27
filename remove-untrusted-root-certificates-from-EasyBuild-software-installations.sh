@@ -275,6 +275,11 @@ fi
 
 known_path_patterns_pem=(
     "aiohttp/*/lib/python*/site-packages/botocore/cacert.pem"
+    "Ansys/*/*/meshing/site/pip/_vendor/certifi/cacert.pem"
+    "Ansys/*/*/CFX/tools/gRPC*/linx64/grpc_base/share/grpc/roots.pem"
+    "Ansys/*/*/optiSLang/scripting/algorithms/DX_env/lib/site-packages/grpc/_cython/_credentials/roots.pem"
+    "Ansys/*/*/optiSLang/lib/python*/lib/PyDPF-packages/pip/_vendor/certifi/cacert.pem"
+    "Ansys/*/*/CFD-Post/tools/gRPC*/linx64/grpc/share/grpc/roots.pem"
     "awscli/*/lib/python*/site-packages/botocore/cacert.pem"
     "awscli/*/lib/python*/site-packages/awscli/botocore/cacert.pem"
     "boto3/*/lib/python*/site-packages/botocore/cacert.pem"

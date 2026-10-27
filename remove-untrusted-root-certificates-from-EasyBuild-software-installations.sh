@@ -428,7 +428,6 @@ known_path_patterns_pem=(
     "R/*/lib/R/library/openssl/cacert.pem"
     "R/*/lib64/R/library/RCurl/CurlSSL/cacert.pem"
     "R/*/lib64/R/library/rsconnect/cert/cacert.pem"
-    "R/*/lib64/R/library/RCurl/etc/ca-bundle.crt"
     "Roary/*/lib/python*/site-packages/pip/_vendor/certifi/cacert.pem"
     "Roary/*/ssl/cacert.pem"
     "Ruby/*/lib/ruby/gems/*/gems/pusher-client-*/certs/cacert.pem"
@@ -443,6 +442,7 @@ known_path_patterns_pem=(
 known_path_patterns_crt=(
     "ont-guppy/*/data/certs-bundle.crt"
     "Pluto/*/packages/OpenSSL/test/certs/ca-certificates.crt"
+    "R/*/lib64/R/library/RCurl/etc/ca-bundle.crt"
     "R-bundle-CRAN/*/RCurl/etc/ca-bundle.crt"
     "texlive/*/tlpkg/installer/curl/curl-ca-bundle.crt"
 )

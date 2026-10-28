@@ -72,6 +72,7 @@ If you use any LLMs, take into account the [EasyBuild AI policy](https://docs.ea
 
 ## History
 
+- 28 Oct 2026: list of known path patterns was expanded significantly (see PRs [#2](https://github.com/easybuilders/eMudhra-untrusted-certificates/pull/2), [#4](https://github.com/easybuilders/eMudhra-untrusted-certificates/pull/4))
 - 23 Oct 2026: first (public) version
 
 ## Useful links

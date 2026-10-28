@@ -223,8 +223,10 @@ export -f remove_untrusted_root_cert
 if [[ $# -eq 0 ]]; then
     fail "Usage: $0 <EasyBuild installation prefix, path to {software,modules} or generic path with *-full modes>"
 fi
-PREFIX=$1
-shift
+if [[ $1 != "--help" ]]; then
+    PREFIX=$1
+    shift
+fi
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
